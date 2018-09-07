@@ -1,0 +1,25 @@
+{
+    "name": "gfl/read-docx",
+    "description": "read content file  docx",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Tuấn Anh",
+            "email": "anh.pt@globalflow.com.vn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GFL\\ReadDocx\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GFL\\ReadDocx\\ReadDocxServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
